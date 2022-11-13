@@ -1,0 +1,50 @@
+body {
+    padding: 0 20px 20px 20px;
+    margin: 0 auto;
+    text-align: justify;
+}
+h1, h4 {
+    color: rgba(248, 19, 65, 0.918);
+}
+h1 {
+    text-align: center;
+    margin: -10px;
+    padding: 20px;
+}
+h2 {
+    color: blue;
+}
+h3 {
+    color: green;
+}
+
+.card {
+    /*Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 300px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    /*Add a deeper shadow on mouse-over*/
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+    /*Add padding and border inside the card container*/
+    padding: 1px 1px;
+    text-emphasis-color: green;   
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+}
+th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+td {
+    text-align: left;
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
